@@ -1,0 +1,25 @@
+name: Python CI
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v2
+        - name: setup-python
+          uses: actions/setup-python@v2
+        - name: install1
+          run:  pip install poetry
+        - name: install2
+          run: make install
+        - name: run-linter
+          run:  make lint
+        - name: run tests
+          run: make test
+
+#        - name: publish code coverage
+#          uses: paambaati/codeclimate-action@v2.7.4
+#          env:
+#            CC_TEST_REPORTER_ID: ${{ secrets.COVERAGE_ID }}
+#          with:
+#            coverageCommand: make test-coverage
+#            debug: true
