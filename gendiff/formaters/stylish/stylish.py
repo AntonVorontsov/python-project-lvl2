@@ -1,4 +1,3 @@
-
 def stylish(json): # noqa
 
     def make_stylish(node, lvl, spacer=' '):
