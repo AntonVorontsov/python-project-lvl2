@@ -6,6 +6,6 @@ def test_parse():
 #         result = file.read()
 #     assert str(parse_yaml('gendiff/parsers/file1.yml')) == result
 
-    with open('./tests/fixtures/file2_result.txt', 'r') as file:
+    with open('tests/fixtures/file2_result.txt', 'r') as file:
         result = file.read()
-    assert str(parse_json('./gendiff/parsers/file2.json')) == result
+    assert str(parse_json('gendiff/parsers/file2.json')) == result
