@@ -1,0 +1,1 @@
+{"follow": {"change": "removed", "child": false}, "host": {"change": null, "child": "hexlet.io"}, "proxy": {"change": "removed", "child": "123.234.53.22"}, "timeout": {"change": "updated", "child": 50, "to": 20}, "verbose": {"change": "added", "child": true}}
