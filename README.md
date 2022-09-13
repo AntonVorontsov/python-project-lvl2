@@ -8,4 +8,6 @@
 
 ASCIINEMA VIDEO:
 
+- help
+- Work with json and yml files
 [![asciicast](https://asciinema.org/a/WGnkrVSjStfGd8RpXOZsj202o.svg)](https://asciinema.org/a/WGnkrVSjStfGd8RpXOZsj202o)
