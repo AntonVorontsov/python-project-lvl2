@@ -14,11 +14,11 @@ jobs:
         - name: run-linter
           run:  make lint
         - name: run tests
-          run: make result_stylish
-        - name: result_stylish & publish code coverage
+          run: make test
+        - name: pytest & publish code coverage
           uses: paambaati/codeclimate-action@v3.0.0
           env:
             CC_TEST_REPORTER_ID: ${{ secrets.COVERAGE_ID }}
           with:
-            coverageCommand: make result_stylish-coverage
+            coverageCommand: make test-coverage-xml
             debug: true
