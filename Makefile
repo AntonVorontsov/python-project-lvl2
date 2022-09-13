@@ -1,7 +1,5 @@
 install:
 	poetry install
-#	pip install coverage
-#	pip install pytest-cov
 
 #Запуск программ
 gendiff:

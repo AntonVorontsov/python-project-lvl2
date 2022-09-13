@@ -16,3 +16,8 @@ ASCIINEMA VIDEO:
 
 - Adding the stylish formatter
 [![asciicast](https://asciinema.org/a/pPbeVZHEmtO2uJ5H5llMlpk6f.svg)](https://asciinema.org/a/pPbeVZHEmtO2uJ5H5llMlpk6f)
+
+
+ASCIINEMA VIDEO:
+Adding the plain formatter
+[![asciicast](https://asciinema.org/a/BiJON7fcg85q31W0jASoMfQhX.svg)](https://asciinema.org/a/BiJON7fcg85q31W0jASoMfQhX)
