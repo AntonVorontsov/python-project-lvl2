@@ -1,11 +1,12 @@
 def plain(tree): # noqa
 
     def make_plain(node, path):
+        result = ''
         if isinstance(node, dict):
-            result = ''
+            # result = ''
             for name, item in node.items():
-                if name == 'change':
-                    continue
+                # if name == 'change':
+                #     continue
                 if item['change'] == 'added' or item['change'] == 'removed':
                     result += create_string(path, item, name)
                     continue

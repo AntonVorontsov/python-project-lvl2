@@ -19,7 +19,6 @@ def create_diff(path_file1, path_file2):  # noqa
     def make_diff(struct_1, struct_2):
         f1_keys = list(struct_1.keys())
         f2_keys = list(struct_2.keys())
-
         all_keys = sorted(set(f1_keys + f2_keys))
 
         res = {}
