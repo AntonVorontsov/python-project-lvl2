@@ -2,8 +2,8 @@ install:
 	poetry install
 
 #Запуск программ
-gendiff:
-	poetry run gendiff 'gendiff/parsers/file1.json' 'gendiff/parsers/file2.json'
+#gendiff:
+#	poetry run gendiff 'gendiff/parsers/file1.json' 'gendiff/parsers/file2.json'
 
 # Сборка проекта в whl файл
 build:
