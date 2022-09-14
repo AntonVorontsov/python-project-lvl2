@@ -21,8 +21,3 @@ ASCIINEMA VIDEO:
 ASCIINEMA VIDEO:
 Adding the plain formatter
 [![asciicast](https://asciinema.org/a/BiJON7fcg85q31W0jASoMfQhX.svg)](https://asciinema.org/a/BiJON7fcg85q31W0jASoMfQhX)
-
-
-ASCIINEMA VIDEO:
-Adding the json formatter
-[![asciicast](https://asciinema.org/a/x4dLfBKxB5i6iTiOSltIQHa9h.svg)](https://asciinema.org/a/x4dLfBKxB5i6iTiOSltIQHa9h)
