@@ -1,6 +1,7 @@
 from gendiff.parsers.parse import parse_json
 from gendiff.parsers.parse import parse_yaml
 
+
 def test_parse():
     with open('tests/fixtures/file1_result.txt', 'r') as file:
         result = file.read()
