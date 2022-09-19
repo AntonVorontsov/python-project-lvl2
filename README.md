@@ -1,3 +1,7 @@
+### Description:
+The `gendiff` utility finds differences between 2 files (with .yaml or .json structure inside) and outputs them in 3 different formats: stylish, plain and json
+
+
 ### Code Climate maintainability and test coverage status
 [![Maintainability](https://api.codeclimate.com/v1/badges/b05de763118c5b52bbb6/maintainability)](https://codeclimate.com/github/AntonVorontsov/python-project-lvl2/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/b05de763118c5b52bbb6/test_coverage)](https://codeclimate.com/github/AntonVorontsov/python-project-lvl2/test_coverage)
